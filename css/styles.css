@@ -32,4 +32,13 @@ h2 {
 }
 .account {
   color: gray;
+  font-size: 18px;
+}
+button {
+  border-radius: 5;
+  height: 40px;
+  background-color: white;
+  color: rgba(30, 0, 255, 0.935);
+  border-color: rgba(30, 0, 255, 0.935);
+  border: none;
 }

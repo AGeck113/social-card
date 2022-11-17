@@ -1,3 +1,35 @@
 * {
   box-sizing: border-box;
 }
+/* berkshire-swash-regular - latin */
+@font-face {
+  font-family: "Berkshire Swash";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+    url("../fonts/berkshire-swash-v16-latin-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/berkshire-swash-v16-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+body {
+  font-family: "Berkshire Swash";
+  background-color: lightgrey;
+}
+article {
+  background-color: white;
+  border-radius: 30px;
+  padding: 15px;
+}
+.image {
+  border-radius: 20px;
+}
+h2 {
+  font-size: 35px;
+}
+.description {
+  font-size: 25px;
+}
+.account {
+  color: gray;
+}
